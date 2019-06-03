@@ -16,13 +16,19 @@
             <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
             <link rel="stylesheet" type="text/css" href="styles/responsive.css">
             <link rel="stylesheet" type="text/css" href="css/estilos.css">
+			<link rel="stylesheet" type="text/css" href="css/animate.css">
+			<script src="js/wow.js"></script>
+			<script>
+				new WOW().init();
+			</script>
+					
         </head>
 <body>
 
 <div class="super_container">
 	<!-- Header -->
 	<header class="header">
-		<div class="header_content d-flex flex-row align-items-center justify-content-start">
+		<div class="header_content d-flex flex-row align-items-center justify-content-start wow slideInDown">
 				<div class=""><a href="/"><img src="{{asset('images/logo_01.png') }}" alt=""></a></div>
 			<div class=""><a href="/" > </a></div>
 			<div class="ml-auto d-flex flex-row align-items-center justify-content-start">
@@ -31,8 +37,8 @@
 						<li class="{{ Request::is('/') ? 'active' : ''}}">
 							<a href="/">SOMOS F&V</a>
 						</li>
-						<li class="{{ Request::is('') ? 'active' : ''}}">
-							<a href="/">
+						<li class="{{ Request::is('inmobiliaria') ? 'active' : ''}}">
+							<a href="/inmobiliaria">
 								INMOBILIARIA
 							</a>
 						</li>
@@ -59,16 +65,16 @@
 		</div>
 	</header>
 	<!-- Menu -->
-	<div class="menu trans_400 d-flex flex-column align-items-end justify-content-start">
+	<div class="menu trans_400 d-flex flex-column align-items-end justify-content-start ">
 		<div class="menu_close"><i class="fa fa-times" aria-hidden="true"></i></div>
 		<div class="menu_content">
 			<nav class="menu_nav text-right">
 				<ul>
-					<li class="{{ Request::is('/test') ? 'active' : ''}} ">
-						<a href="/test" class="mt-4">SOMO F&V</a> <hr>
+					<li class="{{ Request::is('') ? 'active' : ''}} ">
+						<a href="/" class="mt-4">SOMO F&V</a> <hr>
 					</li>
-					<li class="{{ Request::is('test-ubicacion-descripcion') ? 'active' : ''}}">
-						<a href="/test-ubicacion-descripcion">
+					<li class="{{ Request::is('inmobiliaria') ? 'active' : ''}}">
+						<a href="/inmobiliaria">
 							INMOBILIARIA
 						</a> <hr>
 					</li>
@@ -93,6 +99,35 @@
 	</div>
 
 	@yield('content')
+
+
+	<footer class="bg-gray text-center sticky-bottom">
+		<div class="row">
+			<div class="col-6 mt-4 mb-4" style="border-right:2px solid white">
+				<p class="txt-white text-right my wow slideInLeft"><span>MENÚ:</span><br>
+					somos f&v <br>
+					inmobiliaria <br>
+					contrucción <br>
+					arquitectura <br>
+					contácto
+				</p>
+			</div>
+			<div class="col-6 mt-4 mb-4">
+					<p class="txt-white text-left my wow slideInRight"><span>visita nuestras redes:</span><br>
+						somos f&v <br>
+						inmobiliaria <br>
+						contrucción <br>
+						arquitectura <br>
+						contácto
+					</p>
+				</div>
+		</div>
+		<p class="txt-white wow fadeInUp" data-wow-delay="0.5s">Diseñado y digramado por <a href="http://gsvdigital.com" target="blank">
+			<b>
+				gsvdigital.com
+			</b>
+		</a> todos los derechos reservados</p>
+	</footer>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -110,5 +145,7 @@
 <script src="plugins/jquery-datepicker/jquery-ui.js"></script>
 <script src="plugins/colorbox/jquery.colorbox-min.js"></script>
 <script src="js/custom.js"></script>
+
+
 </body>
 </html>

@@ -9,12 +9,34 @@
   src: local('dinn-bold'),
       url("/fonts/DINNextLTProBold.otf") format("opentype");
 }
-a,h1,h2,h3,h4,h5,h6,p,input,button{
+@font-face {
+  font-family: "ptmono";
+  src: local('ptmono'),
+      url("/fonts/ptmono.ttc") format('truetype');
+}
+h1,h2,h3,h4,h5,h6,p,input,button{
   font-family: "dinn-regular";
+}
+a{
+  font-family: "ptmono";
 }
 /* Fin Tipografias */
 
 /* Estilos */
+.btn-red{
+  background-color: red;
+  padding: 10px;
+  color: white;
+  border: none;
+  margin-top: 100px;
+}
+.mt-100{
+  margin-top: 100px;
+  border:none;
+}
+.lh-15{
+  line-height: 15px;
+}
 .line-h{
   line-height : 20px;
 }
@@ -32,17 +54,22 @@ a,h1,h2,h3,h4,h5,h6,p,input,button{
   color: white !important;
   padding: 5px;
 }
-
+.my{
+  text-transform: uppercase;
+}
 .booking_form_container{
   margin-top:0px;
 }
 .bg{
-  background-image: url('../images/plano-01.png');
+  background-image: url('../images/home_bg.jpg');
   background-color: red;
   background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
+}
+.bg-gray{
+  background-color: #414042;
 }
 .txt-white{
   color: white;
