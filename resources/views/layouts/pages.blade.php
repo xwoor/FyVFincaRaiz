@@ -42,13 +42,13 @@
 								INMOBILIARIA
 							</a>
 						</li>
-						<li class="{{ Request::is('') ? 'active' : ''}}">
-							<a href="/">
+						<li class="{{ Request::is('construccion') ? 'active' : ''}}">
+							<a href="/construccion">
 								CONSTRUCCIÓN
 							</a>
 						</li >
-						<li class="{{ Request::is('') ? 'active' : ''}}">
-							<a href="/">
+						<li class="{{ Request::is('arquitectura') ? 'active' : ''}}">
+							<a href="/arquitectura">
 								ARQUITECTURA
 							</a>
 						</li>
@@ -64,32 +64,32 @@
 			</div>
 		</div>
 	</header>
-	<!-- Menu -->
+	<!-- Menu Movil -->
 	<div class="menu trans_400 d-flex flex-column align-items-end justify-content-start ">
 		<div class="menu_close"><i class="fa fa-times" aria-hidden="true"></i></div>
 		<div class="menu_content">
 			<nav class="menu_nav text-right">
 				<ul>
 					<li class="{{ Request::is('') ? 'active' : ''}} ">
-						<a href="/" class="mt-4">SOMO F&V</a> <hr>
+						<a href="/" class="mt-4">SOMOS F&V</a> <hr>
 					</li>
 					<li class="{{ Request::is('inmobiliaria') ? 'active' : ''}}">
 						<a href="/inmobiliaria">
 							INMOBILIARIA
 						</a> <hr>
 					</li>
-					<li class="{{ Request::is('test-espacios-valores') ? 'active' : ''}}">
-						<a href="/test-espacios-valores">
+					<li class="{{ Request::is('construccion') ? 'active' : ''}}">
+						<a href="/construccion">
 							CONSTRUCCIÓN
 						</a> <hr>
 					</li >
-					<li class="{{ Request::is('test-equipo-soporte') ? 'active' : ''}}">
-						<a href="/test-equipo-soporte">
+					<li class="{{ Request::is('arquitectura') ? 'active' : ''}}">
+						<a href="/arquitectura">
 							ARQUITECTURA
 						</a> <hr>
 					</li>
-					<li class="{{ Request::is('test-contacto') ? 'active' : ''}}">
-						<a href="/test-contacto">
+					<li class="{{ Request::is('') ? 'active' : ''}}">
+						<a href="/">
 							CONTACTO
 						</a> <hr>
 					</li>

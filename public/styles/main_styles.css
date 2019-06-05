@@ -486,7 +486,7 @@ section
 }
 .menu_nav ul li a:hover
 {
-	color: #ffa37b;
+	color: red;
 }
 .menu_nav ul li a span
 {
@@ -598,7 +598,7 @@ section
 }
 .home_slider .background_image
 {
-	opacity: 0.28;
+	
 }
 .home_container
 {

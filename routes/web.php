@@ -13,3 +13,5 @@
 
 Route::get('/','PageController@index');
 Route::get('/inmobiliaria','PageController@inmobiliaria');
+Route::get('/construccion','PageController@construccion');
+Route::get('/arquitectura','PageController@arquitectura');

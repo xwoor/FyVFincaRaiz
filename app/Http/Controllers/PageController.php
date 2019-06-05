@@ -12,4 +12,10 @@ class PageController extends Controller
     public function inmobiliaria(){
         return view('pages.inmobiliaria');
     }
+    public function construccion(){
+        return view('pages.construccion');
+    }
+    public function arquitectura(){
+        return view('pages.arquitectura');
+    }
 }
