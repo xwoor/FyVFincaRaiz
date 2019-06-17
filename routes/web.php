@@ -15,3 +15,7 @@ Route::get('/','PageController@index');
 Route::get('/inmobiliaria','PageController@inmobiliaria');
 Route::get('/construccion','PageController@construccion');
 Route::get('/arquitectura','PageController@arquitectura');
+Route::get('/contacto','PageController@contacto');
+
+
+Route::post('mail','PageController@mail');

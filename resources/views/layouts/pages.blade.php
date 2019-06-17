@@ -25,8 +25,36 @@
         </head>
 <body>
 
+{{-- BOTONES REDES SOCIALES --}}
+<div class="botones-flotantes">
+	<a target="_blank" href="#" data-wow-delay="1s" data-wow-duration="0.3s"
+		class="wow slideInRight boton_flotante btn-redes-01">
+		<img width="50px" src="{{asset('images/redes_fb.png')}}"> 
+	</a>
+	<a target="_blank" href="#" data-wow-delay="1s" data-wow-duration="0.3s"
+		class="wow slideInRight boton_flotante btn-redes-02">
+		<img width="50px" src="{{asset('images/redes_ig.png')}}"> 
+	</a>
+	<a target="_blank" href="#" data-wow-delay="1s" data-wow-duration="0.3s"
+		class="wow slideInRight boton_flotante btn-redes-03">
+		<img width="50px" src="{{asset('images/redes_tw.png')}}"> 
+	</a>
+	<a target="_blank" href="#" data-wow-delay="1s" data-wow-duration="0.3s"
+		class="wow slideInRight boton_flotante btn-redes-04">
+		<img width="50px" src="{{asset('images/redes_wp.png')}}"> 
+	</a>
+	<a target="_blank" href="#" data-wow-delay="1s" data-wow-duration="0.3s"
+		class="wow slideInRight boton_flotante btn-redes-05">
+		<img width="50px" src="{{asset('images/redes_yt.png')}}"> 
+	</a>
+	<a target="_blank" href="#" data-wow-delay="1s" data-wow-duration="0.3s"
+		class="wow slideInRight boton_flotante btn-redes-06">
+		<img width="50px" src="{{asset('images/redes_pse.png')}}"> 
+	</a>
+</div>	
+{{-- FIN BOTONES REDES SOCIALES  --}}
 <div class="super_container">
-	<!-- Header -->
+{{-- MENU --}}
 	<header class="header">
 		<div class="header_content d-flex flex-row align-items-center justify-content-start wow slideInDown">
 				<div class=""><a href="/"><img src="{{asset('images/logo_01.png') }}" alt=""></a></div>
@@ -52,8 +80,8 @@
 								ARQUITECTURA
 							</a>
 						</li>
-						<li class="{{ Request::is('') ? 'active' : ''}} mt4">
-							<a href="/">
+						<li class="{{ Request::is('contacto') ? 'active' : ''}} mt4">
+							<a href="/contacto">
 								CONTACTO
 							</a>
 						</li>
@@ -64,7 +92,8 @@
 			</div>
 		</div>
 	</header>
-	<!-- Menu Movil -->
+{{-- FIN MENU --}}
+{{-- MENU MOVIL --}}
 	<div class="menu trans_400 d-flex flex-column align-items-end justify-content-start ">
 		<div class="menu_close"><i class="fa fa-times" aria-hidden="true"></i></div>
 		<div class="menu_content">
@@ -97,29 +126,48 @@
 			</nav>
 		</div>
 	</div>
-
+{{-- FIN MENU MOVIL --}}
+{{-- PAGES CONTENT --}}
 	@yield('content')
-
-
+{{-- FIN PAGES CONTENT --}}
+{{-- FOOTER --}}
 	<footer class="bg-gray text-center sticky-bottom">
 		<div class="row">
 			<div class="col-6 mt-4 mb-4" style="border-right:2px solid white">
 				<p class="txt-white text-right my wow slideInLeft"><span>MENÚ:</span><br>
-					somos f&v <br>
-					inmobiliaria <br>
-					contrucción <br>
-					arquitectura <br>
-					contácto
+					<a class="fn-dinn txt-none" href="/"> somos f&v </a><br>
+					<a class="fn-dinn txt-none" href="/inmobiliaria"> inmobiliaria </a><br>
+					<a class="fn-dinn txt-none" href="/construccion"> construcción </a><br>
+					<a class="fn-dinn txt-none" href="/arquitectura"> arquitectura </a><br>
+					<a class="fn-dinn txt-none" href="/contacto"> contácto</a><br>
+					<a class="fn-dinn txt-none" href="/contacto"> Pagos con PSE</a>
 				</p>
 			</div>
 			<div class="col-6 mt-4 mb-4">
-					<p class="txt-white text-left my wow slideInRight"><span>visita nuestras redes:</span><br>
-						somos f&v <br>
-						inmobiliaria <br>
-						contrucción <br>
-						arquitectura <br>
-						contácto
-					</p>
+				<p class="txt-white text-left my wow slideInRight"><span>VISITA NUESTRAS REDES</span><br>
+					<div class="d-flex">
+							<a target="_blank" href="#" data-wow-delay="1s" data-wow-duration="0.3s"
+								class="wow fadeInUp txt-none">
+								<img width="50px" src="{{asset('images/redes_fb.png')}}"> 
+							</a>
+							<a target="_blank" href="#" data-wow-delay="1s" data-wow-duration="0.3s"
+								class="wow fadeInUp txt-none">
+								<img width="50px" src="{{asset('images/redes_ig.png')}}"> 
+							</a>
+							<a target="_blank" href="#" data-wow-delay="1s" data-wow-duration="0.3s"
+								class="wow fadeInUp txt-none">
+								<img width="50px" src="{{asset('images/redes_tw.png')}}"> 
+							</a>
+							<a target="_blank" href="#" data-wow-delay="1s" data-wow-duration="0.3s"
+								class="wow fadeInUp txt-none">
+								<img width="50px" src="{{asset('images/redes_wp.png')}}"> 
+							</a>
+							<a target="_blank" href="#" data-wow-delay="1s" data-wow-duration="0.3s"
+								class="wow fadeInUp txt-none">
+								<img width="50px" src="{{asset('images/redes_yt.png')}}"> 
+							</a>
+						</div><br>
+				<p class="txt-white text-left my wow slideInRight">Carrera 71C 64C - 33 <br>Barrio El Paseo    CEL:(+57) 301 320 6862</p>
 				</div>
 		</div>
 		<p class="txt-white wow fadeInUp" data-wow-delay="0.5s">Diseñado y digramado por <a href="http://gsvdigital.com" target="blank">
@@ -128,8 +176,9 @@
 			</b>
 		</a> todos los derechos reservados</p>
 	</footer>
-</div>
-
+{{-- FIN FOOTER  --}}
+</div> {{-- /super_container --}}
+ 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -145,7 +194,30 @@
 <script src="plugins/jquery-datepicker/jquery-ui.js"></script>
 <script src="plugins/colorbox/jquery.colorbox-min.js"></script>
 <script src="js/custom.js"></script>
-
+<script>
+$(document).ready( function() {
+    $('#myCarousel').carousel({
+		interval:   4000
+	});
+	
+	var clickEvent = false;
+	$('#myCarousel').on('click', '.nav a', function() {
+			clickEvent = true;
+			$('.nav li').removeClass('active');
+			$(this).parent().addClass('active');		
+	}).on('slid.bs.carousel', function(e) {
+		if(!clickEvent) {
+			var count = $('.nav').children().length -1;
+			var current = $('.nav li.active');
+			current.removeClass('active').next().addClass('active');
+			var id = parseInt(current.data('slide-to'));
+			if(count == id) {
+				$('.nav li').first().addClass('active');	
+			}
+		}
+		clickEvent = false;
+	});
+});</script>
 
 </body>
 </html>

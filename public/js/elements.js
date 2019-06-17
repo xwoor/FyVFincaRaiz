@@ -1,21 +1,4 @@
-/* JS Document */
 
-/******************************
-
-[Table of Contents]
-
-1. Vars and Inits
-2. Set Header
-3. Init Menu
-4. Init Date Picker
-5. Init Accordions
-6. Init Tabs
-7. Init Loaders
-8. Init Milestones
-9. Init SVG
-
-
-******************************/
 
 $(document).ready(function()
 {

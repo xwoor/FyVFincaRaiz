@@ -20,7 +20,7 @@
                 <h1 class="display-4 txt-white fn-dinn-bl fm wow fadeInUp text-left" data-wow-delay="0.5s">
                         de vivienda 
                 </h1>
-                <h3 class="txt-white fn-dinn mb-10 fm-sm wow fadeInUp text-left" data-wow-delay="0.8s" > <br>
+                <h4 class="txt-white fn-dinn mb-10 fm-sm wow fadeInUp text-left" data-wow-delay="0.8s" > <br>
                     Multifamiliar, unifamiliar, comercio y oficinas: pisos, baños, cocinas, pintura, redes <br>
                     eléctricas e hidrosaniatrias, cielo rasos, ventaneria, fachadas, cubiertas. <br> <br>
 
@@ -29,7 +29,7 @@
                     cielos rasos drywall y/o modulares, cableado estructural, instalaciones eléctricas, <br>
                     instalaciones hidrosanitarias, instalaciones de aire acondicionado, puestos de trabajo, <br>
                     salas de junta, muebles de cafetería,salas de lactancia, etc.
-                </h3>
+                </h4>
                 <a href="#mision" class="mt-4 fn-dinn wow fadeInUp" data-wow-delay="1.1s">
                 <img width="250px" src="{{ asset('images/btn_wp.jpg')}}">
                 </a>
@@ -45,10 +45,10 @@
                       <h1 class="display-4 txt-white fn-dinn-bl fm wow fadeInUp text-left" data-wow-delay="0.5s">
                             de proyectos
                       </h1>
-                      <h3 class="txt-white fn-dinn mb-10 fm-sm wow fadeInUp text-left" data-wow-delay="0.8s" > <br>
+                      <h4 class="txt-white fn-dinn mb-10 fm-sm wow fadeInUp text-left" data-wow-delay="0.8s" > <br>
                         el seguimiento, administración de recursos, hasta la entrega <br>
                         final del inmueble al cliente.
-                      </h3>
+                      </h4>
                       <a href="#mision" class="mt-4 fn-dinn wow fadeInUp" data-wow-delay="1.1s">
                       <img width="250px" src="{{ asset('images/btn_wp.jpg')}}">
                       </a>

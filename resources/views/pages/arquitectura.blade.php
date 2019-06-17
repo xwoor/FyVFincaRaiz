@@ -21,11 +21,11 @@
                 <h1 class="display-4 txt-red fn-dinn-bl fm wow fadeInUp text-left" data-wow-delay="0.5s">
                         de innovación
                 </h1>
-                <h3 class="txt-white fn-dinn mb-10 fm-sm wow fadeInUp text-left" data-wow-delay="0.8s" > <br>
+                <h4 class="txt-white fn-dinn mb-10 fm-sm wow fadeInUp text-left" data-wow-delay="0.8s" > <br>
                         Estamos a la vanguardia teniendo encuenta las últimas <br>
                         tendencias, de proyectos multifamiliares, unifamililes, <br>
                         comerciales, oficinas y locales comerciales.
-                </h3>
+                </h4>
                 <a href="#mision" class="mt-4 fn-dinn wow fadeInUp" data-wow-delay="1.1s">
                 <img width="250px" src="{{ asset('images/btn_wp.jpg')}}">
                 </a>
@@ -40,11 +40,11 @@
                       <h1 class="display-4 txt-red fn-dinn-bl fm wow fadeInUp text-left" data-wow-delay="0.5s">
                             100% integral
                       </h1>
-                      <h3 class="txt-white fn-dinn mb-10 fm-sm wow fadeInUp text-left" data-wow-delay="0.8s" > <br>
+                      <h4 class="txt-white fn-dinn mb-10 fm-sm wow fadeInUp text-left" data-wow-delay="0.8s" > <br>
                         Orientación en todo tipo de acabados y materiales <br>
                         constructivos, para la personalización de su inmueble: <br>
                          especificaciones de construcción y de acabados.
-                      </h3>
+                      </h4>
                       <a href="#mision" class="mt-4 fn-dinn wow fadeInUp" data-wow-delay="1.1s">
                       <img width="250px" src="{{ asset('images/btn_wp.jpg')}}">
                       </a>
@@ -60,7 +60,7 @@
                             Trámites <br>
                             de Construcción
                       </h1>
-                      <h3 class="txt-white fn-dinn mb-10 fm-sm wow fadeInUp text-left" data-wow-delay="0.8s" > <br>
+                      <h4 class="txt-white fn-dinn mb-10 fm-sm wow fadeInUp text-left" data-wow-delay="0.8s" > <br>
                         Para hacer de tutiempo más productivo realizamos tus trámites <br>
                         de licencia de construcción y urbanismo, trámites de licencia de <br>
                         excavación, PMT (plan de manejo de trafico), tramites ante <br>
@@ -68,7 +68,7 @@
                         <br>
                         Elaboración de presupuestos y control de programación, <br>
                         basados en los diseños y especificaciones dadas.
-                      </h3>
+                      </h4>
                       <a href="#mision" class="mt-4 fn-dinn wow fadeInUp" data-wow-delay="1.1s">
                       <img width="250px" src="{{ asset('images/btn_wp.jpg')}}">
                       </a>
