@@ -18,10 +18,10 @@
                   Crecemos contigo gracias
                 </h3>
             <h1 class="display-4 txt-white fn-dinn-bl fm wow fadeInUp" data-wow-delay="0.5s">
-                Trabajo en equipo,
+                Al trabajo en equipo,
             </h1>
             <h1 class="txt-red fn-dinn-bl mb-10 fm wow fadeInUp" data-wow-delay="0.8s" >
-                la calidad y enfoque
+                a la calidad y a nuestro enfoque
             </h1>
             <a href="#mision" class="btn-red mt-4 fn-dinn wow fadeInUp" data-wow-delay="1.1s">conoce más</a>
         </div>
@@ -33,10 +33,10 @@
                             Te ofrecemos
                       </h3>
                   <h1 class="display-4 txt-red fn-dinn-bl fm wow fadeInUp" data-wow-delay="0.5s">
-                        Tecnología, dedicación
+                        las últimas tendencias 
                   </h1>
                   <h1 class="txt-white fn-dinn-bl mb-10 fm wow fadeInUp" data-wow-delay="0.8s" >
-                        y responsabilidad
+                        con dedicación y responsabilidad
                   </h1>
                   <a href="#mision" class="btn-red mt-4 fn-dinn wow fadeInUp" data-wow-delay="1.1s">
                       conoce más</a>
@@ -49,10 +49,10 @@
                             Aportamos
                       </h3>
                   <h1 class="display-4 txt-red fn-dinn-bl fm wow fadeInUp" data-wow-delay="0.5s">
-                        Ideas innovadoras
+                        Ideas innovadoras,
                   </h1>
                   <h1 class="txt-white fn-dinn-bl mb-10 fm wow fadeInUp" data-wow-delay="0.8s" >
-                        que permiten el crecimiento <br>de la sociedad.
+                        que nos permiten  estar a la vanguardia de <br> acuerdo al contexto urbano.
                   </h1>
                   <a href="#mision" class="btn-red mt-4 fn-dinn wow fadeInUp" data-wow-delay="1.1s">conoce más</a>
               </div>
@@ -71,16 +71,21 @@
 
 {{-- SECCION --}}
 <div class="bg">
-    <div class="row justify-content-md-center">
+    <div class="row justify-content-md-center" id="mision">
         <div class="col-12 mt-4">
             <h2 class="txt-white text-center wow slideInUp mt-4" data-wow-delay="0.3s">Somos una compañia de 
                 <br> arquitectura 100% colombiana</h2>
         <div class="col-12  offset-lg-3 col-lg-6 mb-4">
             <p class="txt-white text-justify mt-4 line-h wow zoomIn">
-                Especializada en el sector de bienes raíces y construcción, somos una empresa que se desarrolla, se caracteriza y crece gracias al trabajo en equipo, la calidad, el enfoque hacia las últimas tendencias arquitectónicas y la tecnología, la dedicación por hacer bien las cosas, y la responsabilidad como empresa, y con nuestros clientes.  Nuestro equipo de trabajo es especialista en estos sectores y nuestro objetivo siempre es satisfacer las necesidades de nuestros clientes: comercialización, venta y arriendo de inmuebles, adecuaciones físicas oficinas-vivienda y remodelaciones, construcción y ejecución de proyectos, interventorías, asesorías de inversión en finca raíz nacional y en USA, administración de propiedad horizontal y gerencia de proyectos.
+                Especializada en el sector de bienes raíces y construcción, que se desarrolla, se caracteriza, y crece gracias al trabajo en equipo, la calidad, el enfoque hacia las últimas tendencias arquitectónicas y la tecnología, la dedicación, y la responsabilidad con nuestros clientes como empresa. Nuestro equipo de trabajo es especialista en estos sectores y nuestro objetivo siempre es satisfacer las necesidades de nuestros clientes: comercialización, venta y arriendo de
+
+inmuebles, adecuaciones físicas oficinas-vivienda y remodelaciones, construcción
+y ejecución de proyectos, interventorías, asesorías de inversión en finca raíz
+nacional y en USA, administración de propiedad horizontal y gerencia de
+proyectos.
             </p>
             <p class="txt-white text-justify mt-4 line-h mb-4 wow zoomIn">
-                Nuestra atención es personalizada, adelantándonos a las necesidades de nuestra metrópolis y de nuestros clientes, siempre ofreciendo eficacia, calidad, confianza, agilidad, y seguridad, apalancados en nuestra experiencia y nuestroexcelente servicio al cliente. Tenemos experiencia en diseño y construcción en mas de 40.000m2 en multifamiliares de estratos medios, conusos mixtos.
+                Nuestra atención es personalizada, adelantándonos a las necesidades de nuestra metrópolis y de nuestros clientes, siempre ofreciendo eficacia, calidad, confianza, agilidad, y seguridad, apalancados en nuestra experiencia y nuestro excelente servicio al cliente. Tenemos experiencia en diseño y construcción en mas de 40.000m2 en multifamiliares de estratos medios, con usos mixtos.
             </p><br>
         </div>
         </div>
@@ -89,13 +94,15 @@
 {{-- FIN SECCION --}}
 {{-- SECTION 2 --}}
 <div class="container">
-    <div class="row justify-content-md-center" id="mision">
+    <div class="row justify-content-md-center" >
             <div class="col-12 col-lg-6 mt-4" style="border-right:2px solid gray">
                 <div  style="display:flex">
                         <div class="col-10 col-lg-9">
                          <h3 class="txt-white text-right txt-red  wow slideInLeft mt-4" >MISIÓN</h3>
                         <p class="text-right mt-2  wow fadeInLeft fz-10 fn-myriad" data-wow-delay="0.5s">
-                            Diseñar, construir y comercializar prtoyectos de obra civil e inmobiliarios, basados en las últimas tendencias constructivas, con altos estándares de calidad y eficiencia requeridas, y según las necesidades de nuestros clientes, utilizando nuestros valores corporativos que son la excelencia, el respeto, la eficacia, y un altísimo servicio al cliente.
+                            Diseñar, construir y comercializar proyectos de obra civil e inmobiliarios, basados en las últimas tendencias constructivas y arquitectónicas, con altos estándares de calidad y eficiencia requeridas, y según las necesidades de nuestros clientes,
+                            utilizando nuestros valores corporativos que son la excelencia, el respeto, la
+eficacia, y un altísimo servicio al cliente.
                         </p>
                     </div>
                     <div class="col-2 col-lg-3  mt-4 p-4 wow fadeIn" data-wow-delay="1s">
@@ -111,7 +118,11 @@
                         <div class="col-10 col-lg-9">
                             <h3 class="txt-white text-left txt-red mt-4 wow fadeInRight">VISIÓN</h3>
                                 <p class="text-left mt-2 wow fadeInRight fz-10 fn-myriad" data-wow-delay="0.5s">
-                                    Crecer a nivel metrpolitano siendo sólidos y confiables en el mercado inmobiliario y constructor, basado en nuestro crecimiento corporativo, en la innovación, en la tecnología, eficiencia, altos estándares de calidad y adelantándonos siempre a las necesidades de nuestros clientes, obteniendo un reconocimiento a nivel metropolitano en el 2022 por nuestra solidez y dedicación como compañía.
+                                    Crecer a nivel metropolitano siendo sólidos y confiables en el mercado inmobiliario
+y constructor, basado en nuestro crecimiento corporativo, en la innovación, en la
+tecnología, eficiencia, altos estándares de calidad y adelantándonos siempre a las
+necesidades de nuestros clientes, obteniendo un reconocimiento a nivel
+metropolitano en el 2022 por nuestra solidez y dedicación como compañía.
                                 </p>
                         </div>
                     </div>

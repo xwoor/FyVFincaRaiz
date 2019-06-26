@@ -5,7 +5,7 @@
 <div class="container bg_im">
     <div class="row ">
         <div class="col-12 col-lg-6 mt-200 mb-4">
-            <iframe width="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7959.210098583463!2d-74.08039750557957!3d4.5980141866234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99b7ad5a00e3%3A0x400a58712dbeb480!2sBOGOT%C3%81+D.C.!5e0!3m2!1ses-419!2sco!4v1560732812435!5m2!1ses-419!2sco" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe width="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1313.5237356603243!2d-74.05738971569795!3d4.741048172641495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f850c9a8d3a2f%3A0xc8fe6cd2edf0292b!2zQ2wuIDE1OSAjNTQsIEJvZ290w6E!5e0!3m2!1ses-419!2sco!4v1561089380949!5m2!1ses-419!2sco" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
         <div class="col-12 col-lg-6 mt-200 mb-4">
  <!--Form with header-->

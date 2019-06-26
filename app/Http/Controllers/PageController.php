@@ -7,17 +7,21 @@ use App\Mail\SendEmail;
 use Mail;
 use Session;
 use Redirect;
+use App\Admin;
 
 class PageController extends Controller
-{
+{   
     public function index(){
+        
         return view('pages.index');
     }
     public function inmobiliaria(){
-        return view('pages.inmobiliaria');
+        $datos = Admin::all(); 
+        return view('pages.inmobiliaria', compact('datos'));
     }
     public function construccion(){
-        return view('pages.construccion');
+        $datos = Admin::all(); 
+        return view('pages.construccion', compact('datos'));
     }
     public function arquitectura(){
         return view('pages.arquitectura');

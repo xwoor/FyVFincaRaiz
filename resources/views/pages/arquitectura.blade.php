@@ -22,9 +22,9 @@
                         de innovación
                 </h1>
                 <h4 class="txt-white fn-dinn mb-10 fm-sm wow fadeInUp text-left" data-wow-delay="0.8s" > <br>
-                        Estamos a la vanguardia teniendo encuenta las últimas <br>
-                        tendencias, de proyectos multifamiliares, unifamililes, <br>
-                        comerciales, oficinas y locales comerciales.
+                  estamos a la vanguardia teniendo en cuenta las ultimas <br>
+                  tendencias, de proyectos multifamiliares, unifamiliares, y <br>
+                  comerciales (oficinas y locales comerciales).
                 </h4>
                 <a href="#mision" class="mt-4 fn-dinn wow fadeInUp" data-wow-delay="1.1s">
                 <img width="250px" src="{{ asset('images/btn_wp.jpg')}}">
@@ -41,9 +41,9 @@
                             100% integral
                       </h1>
                       <h4 class="txt-white fn-dinn mb-10 fm-sm wow fadeInUp text-left" data-wow-delay="0.8s" > <br>
-                        Orientación en todo tipo de acabados y materiales <br>
-                        constructivos, para la personalización de su inmueble: <br>
-                         especificaciones de construcción y de acabados.
+                        Asesoría en todo tipo de acabados y materiales constructivos,  <br>
+                        para la personalización de su inmueble: especificaciones de <br>
+                        construcción y de acabados.
                       </h4>
                       <a href="#mision" class="mt-4 fn-dinn wow fadeInUp" data-wow-delay="1.1s">
                       <img width="250px" src="{{ asset('images/btn_wp.jpg')}}">
@@ -61,10 +61,10 @@
                             de Construcción
                       </h1>
                       <h4 class="txt-white fn-dinn mb-10 fm-sm wow fadeInUp text-left" data-wow-delay="0.8s" > <br>
-                        Para hacer de tutiempo más productivo realizamos tus trámites <br>
-                        de licencia de construcción y urbanismo, trámites de licencia de <br>
-                        excavación, PMT (plan de manejo de trafico), tramites ante <br>
-                        entidades publicas. <br>
+                        Tramites de licencia de construcción y urbanismo, tramites  <br>
+                        de licencia de excavación, PMT (plan de manejo de trafico), <br>
+                        tramites ante entidades publicas.
+
                         <br>
                         Elaboración de presupuestos y control de programación, <br>
                         basados en los diseños y especificaciones dadas.
