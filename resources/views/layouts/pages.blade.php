@@ -24,36 +24,8 @@
 					
         </head>
 <body>
-
-{{-- BOTONES REDES SOCIALES --}}
-<div class="botones-flotantes">
-	<a target="_blank" href="#" data-wow-delay="1s" data-wow-duration="0.3s"
-		class="wow slideInRight boton_flotante btn-redes-01">
-		<img width="50px" src="{{asset('images/redes_fb.png')}}"> 
-	</a>
-	<a target="_blank" href="https://www.instagram.com/finca_raiz_sas/" data-wow-delay="1s" data-wow-duration="0.3s"
-		class="wow slideInRight boton_flotante btn-redes-02">
-		<img width="50px" src="{{asset('images/redes_ig.png')}}"> 
-	</a>
-	<a target="_blank" href="https://twitter.com/FV05594988" data-wow-delay="1s" data-wow-duration="0.3s"
-		class="wow slideInRight boton_flotante btn-redes-03">
-		<img width="50px" src="{{asset('images/redes_tw.png')}}"> 
-	</a>
-	<a target="_blank" href="#" data-wow-delay="1s" data-wow-duration="0.3s"
-		class="wow slideInRight boton_flotante btn-redes-04">
-		<img width="50px" src="{{asset('images/redes_wp.png')}}"> 
-	</a>
-	<a target="_blank" href="#" data-wow-delay="1s" data-wow-duration="0.3s"
-		class="wow slideInRight boton_flotante btn-redes-05">
-		<img width="50px" src="{{asset('images/redes_yt.png')}}"> 
-	</a>
-	<a target="_blank" href="#" data-wow-delay="1s" data-wow-duration="0.3s"
-		class="wow slideInRight boton_flotante btn-redes-06">
-		<img width="50px" src="{{asset('images/redes_pse.png')}}"> 
-	</a>
-</div>	
-{{-- FIN BOTONES REDES SOCIALES  --}}
-<div class="super_container">
+@yield('botones_redes')
+	<div class="super_container">
 {{-- MENU --}}
 	<header class="header">
 		<div class="header_content d-flex flex-row align-items-center justify-content-start wow slideInDown">
@@ -131,61 +103,8 @@
 	@yield('content')
 {{-- FIN PAGES CONTENT --}}
 {{-- FOOTER --}}
-
-	<footer class="bg-gray text-center sticky-bottom">
-		<div class="row">
-				<div class="col-6 col-lg-3 mt-4 mb-4" >
-						<p class="txt-white text-right my wow slideInLeft"><span>MENÚ:</span><br>
-							<a class="fn-dinn txt-none" href="/"> somos f&v </a><br>
-							<a class="fn-dinn txt-none" href="/inmobiliaria"> inmobiliaria </a><br>
-							<a class="fn-dinn txt-none" href="/construccion"> construcción </a><br>
-
-						</p>
-					</div>
-				<div class="col-6 col-lg-3 mt-4 mb-4" style="border-right:2px solid white; ">
-						<p class="txt-white text-right my wow slideInLeft"><span>MENÚ:</span><br>
-							<a class="fn-dinn txt-none" href="/arquitectura"> arquitectura </a><br>
-							<a class="fn-dinn txt-none" href="/contacto"> contácto</a><br>
-							<a class="fn-dinn txt-none" href="/contacto"> Pagos con PSE</a>
-						</p>
-					</div>
-					<div class="col-6 col-lg-3 mt-4 mb-4">
-							<p class="txt-white text-left my wow slideInRight"><span>VISITA NUESTRAS REDES</span><br>
-								<div class="d-flex">
-										<a target="_blank" href="#" data-wow-delay="1s" data-wow-duration="0.3s"
-											class="wow fadeInUp txt-none">
-											<img width="50px" src="{{asset('images/redes_fb.png')}}"> 
-										</a>
-										<a target="_blank" href="#" data-wow-delay="1s" data-wow-duration="0.3s"
-											class="wow fadeInUp txt-none">
-											<img width="50px" src="{{asset('images/redes_ig.png')}}"> 
-										</a>
-										<a target="_blank" href="#" data-wow-delay="1s" data-wow-duration="0.3s"
-											class="wow fadeInUp txt-none">
-											<img width="50px" src="{{asset('images/redes_tw.png')}}"> 
-										</a>
-										<a target="_blank" href="#" data-wow-delay="1s" data-wow-duration="0.3s"
-											class="wow fadeInUp txt-none">
-											<img width="50px" src="{{asset('images/redes_wp.png')}}"> 
-										</a>
-										<a target="_blank" href="#" data-wow-delay="1s" data-wow-duration="0.3s"
-											class="wow fadeInUp txt-none">
-											<img width="50px" src="{{asset('images/redes_yt.png')}}"> 
-										</a>
-									</div><br>
-							
-							</div>
-			<div class="col-6 col-lg-3 mt-4 mb-4">
-				<p class="txt-white text-left my wow slideInRight" >Calle 159 Nº 54 - 81 <br>CEL:(+57) 321 240 8003</p>
-				</div>
-		</div>
-		<p class="txt-white wow fadeInUp"  data-wow-delay="0.5s">Diseñado y digramado por <a href="http://gsvdigital.com" target="blank">
-			<b>
-				gsvdigital.com
-			</b>
-		</a> todos los derechos reservados</p>
-	</footer>
-{{-- FIN FOOTER  --}}
+@yield('footer')
+{{-- FOOTER --}}
 </div> {{-- /super_container --}}
  
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

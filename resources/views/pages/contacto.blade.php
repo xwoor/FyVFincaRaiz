@@ -1,13 +1,14 @@
 @extends('layouts.pages')
 @section('title','Contacto')
-    
+@include('pages.componentes')
 @section('content')
 <div class="container bg_im">
     <div class="row ">
-        <div class="col-12 col-lg-6 mt-200 mb-4">
-            <iframe width="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1313.5237356603243!2d-74.05738971569795!3d4.741048172641495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f850c9a8d3a2f%3A0xc8fe6cd2edf0292b!2zQ2wuIDE1OSAjNTQsIEJvZ290w6E!5e0!3m2!1ses-419!2sco!4v1561089380949!5m2!1ses-419!2sco" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="col-12 col-lg-6 mt-110 -4 mb-4">
+        <iframe width="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.167761084048!2d-74.05865788552272!3d4.7409190965567465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f850c835a4ce9%3A0xddeb309259a006c9!2sCl.+159+%2354-81%2C+Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1562458731486!5m2!1ses-419!2sco" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
-        <div class="col-12 col-lg-6 mt-200 mb-4">
+
+        <div class="col-12 col-lg-6 mt-110 p-4 mb-4">
  <!--Form with header-->
  
  <form action="/mail" method="POST" class="form">
@@ -16,7 +17,7 @@
      <div class="card  ">
          <div class="card-header  p-0">
              <div class="bg-danger text-white text-center py-2">
-                 <h3 class="txt-white"><i class="fa fa-envelope"></i> Contactanos</h3>
+                 <h3 class="txt-white"><i class="fa fa-envelope"></i> Contáctanos</h3>
                  <p class="m-0 txt-white">Con gusto te ayudaremos</p>
                          {{-- MENSAJE ALERT --}}
                          @if(session('mensaje'))

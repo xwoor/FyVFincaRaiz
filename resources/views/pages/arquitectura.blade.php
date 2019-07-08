@@ -1,6 +1,6 @@
 @extends('layouts.pages')
 @section('title','Arquitectura')
-    
+@include('pages.componentes')
 @section('content')
 {{-- SLIDER --}}
 <header>
@@ -9,6 +9,7 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
           </ol>
           <div class="carousel-inner" role="listbox">
             <!-- Slide One - Set the background image for this slide in the line below -->
@@ -26,7 +27,7 @@
                   tendencias, de proyectos multifamiliares, unifamiliares, y <br>
                   comerciales (oficinas y locales comerciales).
                 </h4>
-                <a href="#mision" class="mt-4 fn-dinn wow fadeInUp" data-wow-delay="1.1s">
+                <a href="https://api.whatsapp.com/send?phone=573212408008&text=Hola!%20Quiero%20saber%20mas%20de%20ustedes!" target="blank" class="mt-4 fn-dinn wow fadeInUp" data-wow-delay="1.1s">
                 <img width="250px" src="{{ asset('images/btn_wp.jpg')}}">
                 </a>
             </div>
@@ -35,7 +36,7 @@
             <div class="carousel-item" style="background-image: url('images/inmobiliaria_02.png')">
                 <div class="carousel-caption  d-md-block mb-15">
                         <h1 class="wow fadeInUp txt-white fn-dinn fm text-left" data-wow-delay="0.2s">
-                            Asesoria                       
+                            Asesoría                       
                           </h1>
                       <h1 class="display-4 txt-red fn-dinn-bl fm wow fadeInUp text-left" data-wow-delay="0.5s">
                             100% integral
@@ -45,7 +46,7 @@
                         para la personalización de su inmueble: especificaciones de <br>
                         construcción y de acabados.
                       </h4>
-                      <a href="#mision" class="mt-4 fn-dinn wow fadeInUp" data-wow-delay="1.1s">
+                      <a href="https://api.whatsapp.com/send?phone=573212408008&text=Hola!%20Quiero%20saber%20mas%20de%20ustedes!" target="blank" class="mt-4 fn-dinn wow fadeInUp" data-wow-delay="1.1s">
                       <img width="250px" src="{{ asset('images/btn_wp.jpg')}}">
                       </a>
                   </div>
@@ -64,12 +65,28 @@
                         Tramites de licencia de construcción y urbanismo, tramites  <br>
                         de licencia de excavación, PMT (plan de manejo de trafico), <br>
                         tramites ante entidades publicas.
+                      </h4>
+                      <a href="https://api.whatsapp.com/send?phone=573212408008&text=Hola!%20Quiero%20saber%20mas%20de%20ustedes!" target="blank" class="mt-4 fn-dinn wow fadeInUp" data-wow-delay="1.1s">
+                      <img width="250px" src="{{ asset('images/btn_wp.jpg')}}">
+                      </a>
+                  </div>
+                  </div>
+            <!-- Slide Four - Set the background image for this slide in the line below -->
+            <div class="carousel-item" style="background-image: url('images/inmobiliaria_01.png')">
+                <div class="carousel-caption  d-md-block mb-15">
+                        <h1 class="wow fadeInUp txt-white fn-dinn fm text-left" data-wow-delay="0.2s">
+                            Diligenciamos
+                          </h1>
+                      <h1 class="display-4 txt-red fn-dinn-bl fm wow fadeInUp text-left" data-wow-delay="0.5s">
+                            Trámites <br>
+                            de Construcción
+                      </h1>
+                      <h4 class="txt-white fn-dinn mb-10 fm-sm wow fadeInUp text-left" data-wow-delay="0.8s" > <br>
 
-                        <br>
                         Elaboración de presupuestos y control de programación, <br>
                         basados en los diseños y especificaciones dadas.
                       </h4>
-                      <a href="#mision" class="mt-4 fn-dinn wow fadeInUp" data-wow-delay="1.1s">
+                      <a href="https://api.whatsapp.com/send?phone=573212408008&text=Hola!%20Quiero%20saber%20mas%20de%20ustedes!" target="blank" class="mt-4 fn-dinn wow fadeInUp" data-wow-delay="1.1s">
                       <img width="250px" src="{{ asset('images/btn_wp.jpg')}}">
                       </a>
                   </div>

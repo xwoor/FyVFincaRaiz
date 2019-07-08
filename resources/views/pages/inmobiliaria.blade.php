@@ -1,12 +1,12 @@
 @extends('layouts.pages')
 @section('title','Inmobiliaria')
-   
+@include('pages.componentes')
 @section('content')
 
 
 <div class="bg_im">
         <div class="container ">
-            <div class="row mt-200 mb-4">
+            <div class="row mt-110 mb-4">
                 @php $contador = 1 @endphp  
 
 <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -95,20 +95,20 @@
                   <h4>Precio de arriendo</h4>
                   <h2>{{ $dato->precio_arriendo}}</h2>
               </div>
-              <p>adminsitracion incluida</p>
+              <h4>Descripción detallada</h4>
               <p class="line-h">{{ $dato->contenido}}</p>
-              <h4>Requisitos de arriendo</h4>
-              <p class="line-h">1. {{ $dato->requisito_1}} <br>
-                  2. {{ $dato->requisito_2}} <br>
-                  3. {{ $dato->requisito_3}} <br>
-                  4. {{ $dato->requisito_4}} <br>
-                  5. {{ $dato->requisito_5}} <br>
-                  6. {{ $dato->requisito_6}} <br>
-                  7. {{ $dato->requisito_7}} </p>
+              <h4>Descripción</h4>
+              <p class="line-h">- {{ $dato->requisito_1}} <br>
+                  - {{ $dato->requisito_2}} <br>
+                  - {{ $dato->requisito_3}} <br>
+                  - {{ $dato->requisito_4}} <br>
+                  - {{ $dato->requisito_5}} <br>
+                  - {{ $dato->requisito_6}} <br>
+                  - {{ $dato->requisito_7}} </p>
                   <div class="row mt-4 p-4 wow fadeIn" data-wow-delay="1s">
-                      <a href="#" target="blank" class="mb-4 mb-4 ">
+                      <a href="https://api.whatsapp.com/send?phone=573212408008&text=Hola!%20Quiero%20saber%20mas%20de%20ustedes!" target="blank" class="mb-4 mb-4 ">
                           <button>
-                              <img class="img-slide" src=" {{asset('images/btn_wp.jpg')}} ">
+                              <img class="img-slide" src=" {{asset('images/icons_02.png')}} ">
                           </button>
                       </a>
                   </div>

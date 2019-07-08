@@ -1,6 +1,8 @@
 @extends('layouts.pages')
 @section('title','Home')
-    
+ 
+@include('pages.componentes')
+
 @section('content')
 {{-- SLIDER --}}
 <header>
@@ -18,7 +20,7 @@
                   Crecemos contigo gracias
                 </h3>
             <h1 class="display-4 txt-white fn-dinn-bl fm wow fadeInUp" data-wow-delay="0.5s">
-                Al trabajo en equipo,
+                al trabajo en equipo,
             </h1>
             <h1 class="txt-red fn-dinn-bl mb-10 fm wow fadeInUp" data-wow-delay="0.8s" >
                 a la calidad y a nuestro enfoque
@@ -129,7 +131,7 @@ metropolitano en el 2022 por nuestra solidez y dedicación como compañía.
             </div>
         </div>
         <div class="row d-flex justify-content-center mt-4 p-4 wow fadeIn" data-wow-delay="1s">
-            <a href="#" target="blank" class="mb-4 mb-4 ">
+            <a href="https://api.whatsapp.com/send?phone=573212408008&text=Hola!%20Quiero%20saber%20mas%20de%20ustedes!" target="blank" class="mb-4 mb-4 ">
                 <button>
                     <img class="img-slide" src=" {{asset('images/btn_wp.jpg')}} ">
                 </button>

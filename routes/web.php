@@ -20,7 +20,9 @@ Route::get('/contacto','PageController@contacto');
 
 Route::post('mail','PageController@mail');
 Auth::routes();
+Route::resource('/galeria', 'GaleryController');
 Route::resource('/admin', 'AdminController');
+
 Route::get('/agregar', 'HomeController@agregar');
 Route::get('/informacion', 'HomeController@informacion');
 

@@ -8,26 +8,36 @@ use Mail;
 use Session;
 use Redirect;
 use App\Admin;
+use App\Infopage;
+use App\Galery;
 
 class PageController extends Controller
 {   
     public function index(){
-        
-        return view('pages.index');
+        $info = Infopage::all();
+        $datos = Admin::all(); 
+        return view('pages.index',  compact('datos', 'info'));
     }
     public function inmobiliaria(){
+        $info = Infopage::all();
         $datos = Admin::all(); 
-        return view('pages.inmobiliaria', compact('datos'));
+        return view('pages.inmobiliaria', compact('datos', 'info'));
     }
     public function construccion(){
+        $info = Infopage::all();
         $datos = Admin::all(); 
-        return view('pages.construccion', compact('datos'));
+        $galerias = Galery::all(); 
+        return view('pages.construccion',compact('datos', 'info','galerias'));
     }
     public function arquitectura(){
-        return view('pages.arquitectura');
+        $info = Infopage::all();
+        $datos = Admin::all(); 
+        return view('pages.arquitectura', compact('datos', 'info'));
     }
     public function contacto(){
-        return view('pages.contacto');
+        $info = Infopage::all();
+        $datos = Admin::all(); 
+        return view('pages.contacto', compact('datos', 'info'));
     }
     public function mail(Request $request){
         

@@ -102,6 +102,10 @@
                         <a href="/informacion"><i class="fa fa-info"></i> <span>Información</span>
                         </a>
                     </li>
+                    <li class="{{ Request::is('galeria') ? 'active' : ''}}">
+                        <a href="/galeria"><i class="fa fa-file-image-o"></i><span>Galeria</span>
+                        </a>
+                    </li>
                     
                   </ul>
                 </section>

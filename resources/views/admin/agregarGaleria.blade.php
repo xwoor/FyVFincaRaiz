@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 
-@section('title', 'Agregar')
+@section('title', 'Agregar Galeria')
 
 @section('content')
 <div class="container">

@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Infopage;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -31,6 +31,7 @@ class HomeController extends Controller
     }
     public function informacion()
     {
-        return view('admin.informacion');
+        $info = Infopage::all(); 
+        return view('admin.informacion', compact('info'));
     }
 }
